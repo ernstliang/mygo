@@ -1,9 +1,8 @@
 module github.com/ernstliang/mygo
 
 require (
-	github.com/panjf2000/ants v3.9.9+incompatible
-	github.com/sirupsen/logrus v1.3.0
-	golang.org/x/sync v0.0.0-20181108010431-42b317875d0f
+	github.com/panjf2000/ants v1.0.0
+	github.com/sirupsen/logrus v1.4.2
+	golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4
+	gopkg.in/oauth2.v3 v3.12.0 // indirect
 )
-
-replace golang.org/x/sys => /Users/xliang/Documents/go/src/golang.org/x/sys
